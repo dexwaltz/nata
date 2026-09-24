@@ -1,6 +1,6 @@
 # NATA International Church Network
 
-A static website for a multilingual Reformed resource library serving international churches, pastors, elders, missionaries, and disciples.
+A global network and resource center equipping Reformed churches to serve and plant faithful churches among the nations.
 
 ## Included
 - Responsive landing page

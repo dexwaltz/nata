@@ -1,26 +1,29 @@
 # NATA International Church Network
 
-A static website for a multilingual Reformed resource library and network serving international churches, pastors, elders, missionaries, church planters, and disciples.
+Static GitHub Pages website for NATA.
 
-## Site structure
-- `index.html` — homepage
-- `support.html` — ministry grants, start-up support, and giving
-- `training/` — four separate training landing pages
-- `resources/` — separate landing pages for each resource-library topic
-- `styles.css` — site design
-- `script.js` — resource search/filter behavior
+## Resource Library
+Each Resource Library topic has its own landing page inside `resources/`. The pages contain placeholders for video resources, PDFs/documents, recommended resources, and teaching materials.
 
-## Adding content
-Each training and resource landing page contains clearly marked placeholders for video teaching, PDFs, documents, and other resources. Replace or extend those sections as materials are reviewed and approved.
+Current resource topics:
+- Church Membership
+- Inner Healing
+- Demons & Angels
+- Biblical Theology
+- Systematic Theology
+- Homiletics
+- Hermeneutics
+- Church Planting
+- Discipleship
+- Pastoral Care
+- Spiritual Warfare
+- The Lord's Supper
+- Tithing & Giving
+- Spiritual Abuse
+- Church Hurt
 
-## Support requests
-The static support forms use `mailto:davidwaltz65@gmail.com`. Submitting a form opens the visitor’s email application with the request details. A hosted form service can be connected later if direct web submissions are desired.
+## Editing
+To add a video, PDF, or document later, edit the appropriate page in `resources/`. Keep file names lowercase with hyphens. The main Resource Library links are generated in `script.js`.
 
-## Giving
-The Support page links to `https://meigiving.org/donate-associate` and displays designation code `DJ4234`.
-
-## Run locally
-Open `index.html` in a browser, or serve the folder with any static web server.
-
-## Deploy
-Upload/commit the folder to the GitHub repository used by GitHub Pages. Your existing custom domain `natachurches.com` can remain unchanged.
+## GitHub Pages
+Keep the existing `CNAME` file in the GitHub repository. Its content should remain `natachurches.com`.
